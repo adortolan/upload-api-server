@@ -28,4 +28,4 @@ Content-Type: application/json
 POST http://localhost:3333/ai/complete
 Content-Type: application/json
 
-{"videoId": "060246b2-dcc5-4b15-90e3-b60236ac166f", "tenperature": 0.5, "template": "Gere um resumo sucinto: '''{transcription}''' "}
+{"videoId": "060246b2-dcc5-4b15-90e3-b60236ac166f", "tenperature": 0.5, "prompt": "Gere um resumo sucinto: '''{transcription}''' "}
